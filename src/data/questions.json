@@ -1,0 +1,22 @@
+{
+  "title": "A you ready?",
+  "answer_blocks": [
+    {
+      "type": "radio",
+      "values": ["Yes", "No"]
+    },
+    {
+      "type": "select",
+      "values": [
+        "I'm Frontend Developer",
+        "I'm Backend Developer",
+        "FullStack Developer",
+        "TeamLead"
+      ]
+    },
+    {
+      "type": "input",
+      "values": ""
+    }
+  ]
+}
