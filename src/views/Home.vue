@@ -13,11 +13,12 @@
     },
     data() {
       return {
-        questions: [],
+        questions: {},
       }
     },
-    created() {
-      this.questions = require("@/data/questions.json")
+    created(): void {
+      let {questions} = require("@/data/questions.ts")
+      this.questions = questions
     },
   })
 </script>
